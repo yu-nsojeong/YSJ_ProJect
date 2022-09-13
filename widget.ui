@@ -197,7 +197,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>restart</string>
+    <string>master</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_bg">

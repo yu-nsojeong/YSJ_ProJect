@@ -34,7 +34,7 @@ Widget::Widget(QWidget *parent)
 
 
 
-    QPixmap bg("C:\\cpp\\20220905\\YSJ_ProJect\\image\\bg.png");
+    QPixmap bg(":/new/prefix1/image/bg.png");
     ui ->label_2->setPixmap(bg.scaled(711,191,Qt::KeepAspectRatio));
 
 
@@ -157,13 +157,13 @@ void Widget::myscreen(){
 
         if(coco == 1){
 
-            QPixmap coco1("C:\\cpp\\20220905\\YSJ_ProJect\\image\\coco1.png");
+            QPixmap coco1(":/new/prefix1/image/coco1.png");
              ui ->label_bg->setPixmap(coco1.scaled(150,150,Qt::KeepAspectRatio));
 
             coco =2;
         }
         else if(coco == 2){
-            QPixmap coco2("C:\\cpp\\20220905\\YSJ_ProJect\\image\\coco2.png");
+            QPixmap coco2(":/new/prefix1/image/coco2.png");
             ui ->label_bg->setPixmap(coco2.scaled(150,150,Qt::KeepAspectRatio));
             coco = 1;
         }
@@ -173,13 +173,13 @@ void Widget::myscreen(){
 
         if(coco == 1){
 
-            QPixmap coco1("C:\\cpp\\20220905\\YSJ_ProJect\\image\\coco2_1.png");
+            QPixmap coco1(":/new/prefix1/image/coco2_1.png");
              ui ->label_bg->setPixmap(coco1.scaled(150,150,Qt::KeepAspectRatio));
 
             coco =2;
         }
         else if(coco == 2){
-            QPixmap coco2("C:\\cpp\\20220905\\YSJ_ProJect\\image\\coco2_2.png");
+            QPixmap coco2(":/new/prefix1/image/coco2_2.png");
             ui ->label_bg->setPixmap(coco2.scaled(150,150,Qt::KeepAspectRatio));
             coco = 1;
         }
@@ -189,13 +189,13 @@ void Widget::myscreen(){
 
         if(coco == 1){
 
-            QPixmap coco1("C:\\cpp\\20220905\\YSJ_ProJect\\image\\coco3_1.png");
+            QPixmap coco1(":/new/prefix1/image/coco3_1.png");
              ui ->label_bg->setPixmap(coco1.scaled(150,150,Qt::KeepAspectRatio));
 
             coco =2;
         }
         else if(coco == 2){
-            QPixmap coco2("C:\\cpp\\20220905\\YSJ_ProJect\\image\\coco3_2.png");
+            QPixmap coco2(":/new/prefix1/image/coco3_2.png");
             ui ->label_bg->setPixmap(coco2.scaled(150,150,Qt::KeepAspectRatio));
             coco = 1;
         }
@@ -207,7 +207,7 @@ void Widget::myscreen(){
         timer->start(10000);
         ui->death_menue->setText("Coco is dead.");
 
-            QPixmap cocodeath("C:\\cpp\\20220905\\YSJ_ProJect\\image\\coco4.png");
+            QPixmap cocodeath(":/new/prefix1/image/coco4.png");
              ui ->label_bg->setPixmap(cocodeath.scaled(150,150,Qt::KeepAspectRatio));
 
     }
@@ -219,10 +219,10 @@ void Widget::myscreen(){
         timer->start(10000);
         ui->death_menue->setText("Coco arrived.");
 
-        QPixmap cocoarrive("C:\\cpp\\20220905\\YSJ_ProJect\\image\\coco5.png");
+        QPixmap cocoarrive(":/new/prefix1/image/coco5.png");
          ui ->label_bg->setPixmap(cocoarrive.scaled(150,150,Qt::KeepAspectRatio));
 
-        QPixmap bg("C:\\cpp\\20220905\\YSJ_ProJect\\image\\bg_a.png");
+        QPixmap bg(":/new/prefix1/image/bg_a.png");
 
         ui ->label_2->setPixmap(bg.scaled(711,191,Qt::KeepAspectRatio));
     }
