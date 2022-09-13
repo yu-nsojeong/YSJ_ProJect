@@ -8,28 +8,13 @@
 #include <QGraphicsView>
 #include <QGraphicsRectItem>
 #include <QGraphicsItem>
-
-
-
-//#include <QSize>
 #include <QString>
-
-//#include <QGraphicsScene>
 #include <QTransform>
-
-
 #include <QPixmap>
-
-//#include <QGraphicsView>
-
 #include <QApplication>
-//#include <QKeyEvent>
-
-//#include <QKeyEvent>
 #include <QGraphicsPixmapItem>
 #include <QTimer>
-//#include <QDir>
-//#include <QPainter>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }

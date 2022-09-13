@@ -6,10 +6,7 @@
 #include <QGraphicsScene>
 #include <cstdlib>//난수생성 헤더파일
 
-//#include "ui_widget.h"
-//#include <QWidget>
 
-#include<QPixmap>
 
 
 Charector a;
