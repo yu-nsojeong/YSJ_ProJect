@@ -138,7 +138,7 @@ void Widget::myfunction(){
 
     }
 
-    if((2==rand()%4)&&(t.tree_toggle == false)){
+    if((1==rand()%4)&&(t.tree_toggle == false)){
         t.tree_toggle = true;
     }
 
